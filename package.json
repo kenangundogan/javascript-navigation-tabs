@@ -1,0 +1,35 @@
+{
+    "name": "javascript-navigation-tabs",
+    "version": "1.0.0",
+    "description": "Javascript accordion - tiny and simple. Accordions are useful when you want to toggle between hiding and showing large amount of content.",
+    "author": "Kenan Gündoğan",
+    "main": "dist/example/javascript-navigation-tabs.html",
+    "style": "dist/css/style.css",
+    "script": "dist/script/script.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kenangundogan/javascript-navigation-tabs.git"
+    },
+    "keywords": [
+        "navigation",
+        "javascript",
+        "navigation-tab",
+        "navigation-tabs",
+        "javascript-navigation-menu"
+    ],
+    "contributors": [
+        "Kenan Gündoğan <kenangundogann@gmail.com>"
+    ],
+    "funding": {
+        "type": "patreon",
+        "url": "https://www.patreon.com/kenangundogan"
+    },
+    "bugs": {
+        "url": "https://github.com/kenangundogan/javascript-navigation-tabs/issues"
+    },
+    "homepage": "https://github.com/kenangundogan/javascript-navigation-tabs#readme"
+}
