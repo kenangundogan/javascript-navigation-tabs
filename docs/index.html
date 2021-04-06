@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Navigation Tabs</title>
+    <meta name="description" content="Javascript navigation tabs - tiny and simple.">
+    <meta name="author" content="Kenan Gündoğan">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="example">
+            <div class="head">
+                <div class="title">Javascript Navigation Tabs</div>
+                <div class="description">
+                    Javascript navigation tabs - tiny and simple.
+                    <span class="info">Top Position</span>
+                </div>
+            </div>
+
+            <div class="navigation-tabs-container" id="top-position">
+                <ul class="navigation-tab-menu">
+                    <li class="item" data-id="1"><span>Adobe XD</span></li>
+                    <li class="item" data-id="2"><span>Sketch App</span></li>
+                    <li class="item" data-id="3"><span>Invision Studio</span></li>
+                </ul>
+
+                <ul class="navigation-tab-content">
+                    <li class="item" data-id="1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices id lacus ac imperdiet. Nunc ac varius massa, eget sagittis ligula. Sed ultricies nunc id rutrum volutpat. Quisque congue nunc rhoncus purus lacinia, a placerat dolor condimentum. Sed euismod dolor ac nulla tristique, at luctus dui lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus ac odio a pretium.
+                            <br><br>
+                            Donec auctor nisl scelerisque egestas tincidunt. Curabitur vitae aliquet ligula, vel elementum lectus. Donec id libero nec erat scelerisque efficitur id sodales mi. Donec in consequat ex, a tempor justo. Nullam eleifend, ligula ac hendrerit blandit, massa sapien tempor dui, at volutpat odio nibh vel lacus. Mauris arcu lacus, faucibus sit amet lacinia ut, volutpat id lectus. Etiam eleifend augue sed dolor porttitor posuere eu non nunc. Curabitur condimentum lacus ligula, non sollicitudin elit viverra nec. Praesent lacinia commodo maximus. Aliquam tincidunt quis tortor id tincidunt. Donec commodo metus ac arcu ullamcorper condimentum. In vitae tristique augue.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="2">
+                        <p>
+                            Nam eros enim, pellentesque eget varius in, tincidunt nec arcu. Praesent leo orci, hendrerit sit amet vulputate id, aliquam at metus. Sed tincidunt arcu fringilla erat pretium, non varius elit finibus. Sed in nisi sit amet nisi ornare ullamcorper quis a lorem. Curabitur in urna elementum, egestas lacus sed, aliquam nibh. Curabitur porta convallis pellentesque. Morbi ac urna tellus. Phasellus lacinia tristique arcu, quis convallis massa iaculis sed. Sed blandit tincidunt odio, nec aliquam ligula gravida nec. Donec commodo augue at leo porttitor posuere. Vestibulum metus risus, maximus id nibh a, aliquam consectetur massa. Donec a auctor elit. Fusce et lacus non lectus cursus commodo. Pellentesque feugiat quis augue vitae suscipit.
+                            <br><br>
+                            Morbi malesuada posuere nulla, eu tristique eros feugiat vitae. Cras velit dui, posuere sit amet magna sed, varius elementum elit. Cras in vulputate urna. Mauris eleifend eros dui, ac porttitor leo porttitor sit amet. Proin massa velit, pharetra sed posuere non, faucibus eu orci. In euismod tempus lectus, ac placerat nunc porttitor non. Vivamus ultrices pulvinar lorem, non ullamcorper ligula rutrum sit amet. Nunc et dolor at nibh pellentesque malesuada non nec dolor. Etiam et auctor tellus, id sollicitudin quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam at elementum felis, a faucibus tellus. Vivamus condimentum est nec metus porttitor, ut hendrerit sapien vestibulum. Ut laoreet sodales dui.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="3">
+                        <p>
+                            Integer porta diam vitae bibendum rhoncus. Nullam semper gravida luctus. Donec aliquam enim ligula, sit amet suscipit sapien fermentum quis. Suspendisse lobortis facilisis velit, eget malesuada elit efficitur vitae. In posuere, dolor finibus fermentum lobortis, mi orci dictum metus, vel ornare tortor lorem vel nisl. Sed consequat tincidunt scelerisque. Aenean nulla quam, hendrerit sed malesuada a, ullamcorper vitae nibh. Phasellus ac mattis metus. Nulla facilisi.
+                            <br><br>
+                            Suspendisse semper lobortis lectus in tincidunt. Praesent a pharetra mi. Nullam malesuada elementum magna quis pretium. Maecenas vel molestie orci. Sed dapibus efficitur sodales. Sed id massa a arcu eleifend fringilla. Duis egestas, libero vel finibus molestie, enim mauris feugiat urna, sit amet blandit orci nunc non diam. Proin tristique nulla vitae eros tempor, eget tincidunt mi convallis.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+
+            <script>
+                var navigationtabs = new NavigationTabs({
+                    element: "#top-position",
+                    event: "click",
+                    direction: "top",
+                    activeTab: 1
+                });
+            </script>
+        </div>
+
+        <div class="example">
+            <div class="head">
+                <div class="title">Javascript Navigation Tabs</div>
+                <div class="description">
+                    Javascript navigation tabs - tiny and simple.
+                    <span class="info">Left Position</span>
+                </div>
+            </div>
+
+            <div class="navigation-tabs-container" id="left-position">
+                <ul class="navigation-tab-menu">
+                    <li class="item" data-id="1"><span>Adobe XD</span></li>
+                    <li class="item" data-id="2"><span>Sketch App</span></li>
+                    <li class="item" data-id="3"><span>Invision Studio</span></li>
+                </ul>
+
+                <ul class="navigation-tab-content">
+                    <li class="item" data-id="1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices id lacus ac imperdiet. Nunc ac varius massa, eget sagittis ligula. Sed ultricies nunc id rutrum volutpat. Quisque congue nunc rhoncus purus lacinia, a placerat dolor condimentum. Sed euismod dolor ac nulla tristique, at luctus dui lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus ac odio a pretium.
+                            <br><br>
+                            Donec auctor nisl scelerisque egestas tincidunt. Curabitur vitae aliquet ligula, vel elementum lectus. Donec id libero nec erat scelerisque efficitur id sodales mi. Donec in consequat ex, a tempor justo. Nullam eleifend, ligula ac hendrerit blandit, massa sapien tempor dui, at volutpat odio nibh vel lacus. Mauris arcu lacus, faucibus sit amet lacinia ut, volutpat id lectus. Etiam eleifend augue sed dolor porttitor posuere eu non nunc. Curabitur condimentum lacus ligula, non sollicitudin elit viverra nec. Praesent lacinia commodo maximus. Aliquam tincidunt quis tortor id tincidunt. Donec commodo metus ac arcu ullamcorper condimentum. In vitae tristique augue.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="2">
+                        <p>
+                            Nam eros enim, pellentesque eget varius in, tincidunt nec arcu. Praesent leo orci, hendrerit sit amet vulputate id, aliquam at metus. Sed tincidunt arcu fringilla erat pretium, non varius elit finibus. Sed in nisi sit amet nisi ornare ullamcorper quis a lorem. Curabitur in urna elementum, egestas lacus sed, aliquam nibh. Curabitur porta convallis pellentesque. Morbi ac urna tellus. Phasellus lacinia tristique arcu, quis convallis massa iaculis sed. Sed blandit tincidunt odio, nec aliquam ligula gravida nec. Donec commodo augue at leo porttitor posuere. Vestibulum metus risus, maximus id nibh a, aliquam consectetur massa. Donec a auctor elit. Fusce et lacus non lectus cursus commodo. Pellentesque feugiat quis augue vitae suscipit.
+                            <br><br>
+                            Morbi malesuada posuere nulla, eu tristique eros feugiat vitae. Cras velit dui, posuere sit amet magna sed, varius elementum elit. Cras in vulputate urna. Mauris eleifend eros dui, ac porttitor leo porttitor sit amet. Proin massa velit, pharetra sed posuere non, faucibus eu orci. In euismod tempus lectus, ac placerat nunc porttitor non. Vivamus ultrices pulvinar lorem, non ullamcorper ligula rutrum sit amet. Nunc et dolor at nibh pellentesque malesuada non nec dolor. Etiam et auctor tellus, id sollicitudin quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam at elementum felis, a faucibus tellus. Vivamus condimentum est nec metus porttitor, ut hendrerit sapien vestibulum. Ut laoreet sodales dui.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="3">
+                        <p>
+                            Integer porta diam vitae bibendum rhoncus. Nullam semper gravida luctus. Donec aliquam enim ligula, sit amet suscipit sapien fermentum quis. Suspendisse lobortis facilisis velit, eget malesuada elit efficitur vitae. In posuere, dolor finibus fermentum lobortis, mi orci dictum metus, vel ornare tortor lorem vel nisl. Sed consequat tincidunt scelerisque. Aenean nulla quam, hendrerit sed malesuada a, ullamcorper vitae nibh. Phasellus ac mattis metus. Nulla facilisi.
+                            <br><br>
+                            Suspendisse semper lobortis lectus in tincidunt. Praesent a pharetra mi. Nullam malesuada elementum magna quis pretium. Maecenas vel molestie orci. Sed dapibus efficitur sodales. Sed id massa a arcu eleifend fringilla. Duis egestas, libero vel finibus molestie, enim mauris feugiat urna, sit amet blandit orci nunc non diam. Proin tristique nulla vitae eros tempor, eget tincidunt mi convallis.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+
+            <script>
+                var navigationtabs = new NavigationTabs({
+                    element: "#left-position",
+                    event: "click",
+                    direction: "left",
+                    activeTab: 1
+                });
+            </script>
+        </div>
+
+        <div class="example">
+            <div class="head">
+                <div class="title">Javascript Navigation Tabs</div>
+                <div class="description">
+                    Javascript navigation tabs - tiny and simple.
+                    <span class="info">Right Position</span>
+                </div>
+            </div>
+
+            <div class="navigation-tabs-container" id="right-position">
+                <ul class="navigation-tab-menu">
+                    <li class="item" data-id="1"><span>Adobe XD</span></li>
+                    <li class="item" data-id="2"><span>Sketch App</span></li>
+                    <li class="item" data-id="3"><span>Invision Studio</span></li>
+                </ul>
+
+                <ul class="navigation-tab-content">
+                    <li class="item" data-id="1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices id lacus ac imperdiet. Nunc ac varius massa, eget sagittis ligula. Sed ultricies nunc id rutrum volutpat. Quisque congue nunc rhoncus purus lacinia, a placerat dolor condimentum. Sed euismod dolor ac nulla tristique, at luctus dui lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus ac odio a pretium.
+                            <br><br>
+                            Donec auctor nisl scelerisque egestas tincidunt. Curabitur vitae aliquet ligula, vel elementum lectus. Donec id libero nec erat scelerisque efficitur id sodales mi. Donec in consequat ex, a tempor justo. Nullam eleifend, ligula ac hendrerit blandit, massa sapien tempor dui, at volutpat odio nibh vel lacus. Mauris arcu lacus, faucibus sit amet lacinia ut, volutpat id lectus. Etiam eleifend augue sed dolor porttitor posuere eu non nunc. Curabitur condimentum lacus ligula, non sollicitudin elit viverra nec. Praesent lacinia commodo maximus. Aliquam tincidunt quis tortor id tincidunt. Donec commodo metus ac arcu ullamcorper condimentum. In vitae tristique augue.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="2">
+                        <p>
+                            Nam eros enim, pellentesque eget varius in, tincidunt nec arcu. Praesent leo orci, hendrerit sit amet vulputate id, aliquam at metus. Sed tincidunt arcu fringilla erat pretium, non varius elit finibus. Sed in nisi sit amet nisi ornare ullamcorper quis a lorem. Curabitur in urna elementum, egestas lacus sed, aliquam nibh. Curabitur porta convallis pellentesque. Morbi ac urna tellus. Phasellus lacinia tristique arcu, quis convallis massa iaculis sed. Sed blandit tincidunt odio, nec aliquam ligula gravida nec. Donec commodo augue at leo porttitor posuere. Vestibulum metus risus, maximus id nibh a, aliquam consectetur massa. Donec a auctor elit. Fusce et lacus non lectus cursus commodo. Pellentesque feugiat quis augue vitae suscipit.
+                            <br><br>
+                            Morbi malesuada posuere nulla, eu tristique eros feugiat vitae. Cras velit dui, posuere sit amet magna sed, varius elementum elit. Cras in vulputate urna. Mauris eleifend eros dui, ac porttitor leo porttitor sit amet. Proin massa velit, pharetra sed posuere non, faucibus eu orci. In euismod tempus lectus, ac placerat nunc porttitor non. Vivamus ultrices pulvinar lorem, non ullamcorper ligula rutrum sit amet. Nunc et dolor at nibh pellentesque malesuada non nec dolor. Etiam et auctor tellus, id sollicitudin quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam at elementum felis, a faucibus tellus. Vivamus condimentum est nec metus porttitor, ut hendrerit sapien vestibulum. Ut laoreet sodales dui.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="3">
+                        <p>
+                            Integer porta diam vitae bibendum rhoncus. Nullam semper gravida luctus. Donec aliquam enim ligula, sit amet suscipit sapien fermentum quis. Suspendisse lobortis facilisis velit, eget malesuada elit efficitur vitae. In posuere, dolor finibus fermentum lobortis, mi orci dictum metus, vel ornare tortor lorem vel nisl. Sed consequat tincidunt scelerisque. Aenean nulla quam, hendrerit sed malesuada a, ullamcorper vitae nibh. Phasellus ac mattis metus. Nulla facilisi.
+                            <br><br>
+                            Suspendisse semper lobortis lectus in tincidunt. Praesent a pharetra mi. Nullam malesuada elementum magna quis pretium. Maecenas vel molestie orci. Sed dapibus efficitur sodales. Sed id massa a arcu eleifend fringilla. Duis egestas, libero vel finibus molestie, enim mauris feugiat urna, sit amet blandit orci nunc non diam. Proin tristique nulla vitae eros tempor, eget tincidunt mi convallis.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+
+            <script>
+                var navigationtabs = new NavigationTabs({
+                    element: "#right-position",
+                    event: "click",
+                    direction: "right",
+                    activeTab: 1
+                });
+            </script>
+        </div>
+
+        <div class="example">
+            <div class="head">
+                <div class="title">Javascript Navigation Tabs</div>
+                <div class="description">
+                    Javascript navigation tabs - tiny and simple.
+                    <span class="info">Bottom Position</span>
+                </div>
+            </div>
+
+            <div class="navigation-tabs-container" id="bottom-position">
+                <ul class="navigation-tab-menu">
+                    <li class="item" data-id="1"><span>Adobe XD</span></li>
+                    <li class="item" data-id="2"><span>Sketch App</span></li>
+                    <li class="item" data-id="3"><span>Invision Studio</span></li>
+                </ul>
+
+                <ul class="navigation-tab-content">
+                    <li class="item" data-id="1">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices id lacus ac imperdiet. Nunc ac varius massa, eget sagittis ligula. Sed ultricies nunc id rutrum volutpat. Quisque congue nunc rhoncus purus lacinia, a placerat dolor condimentum. Sed euismod dolor ac nulla tristique, at luctus dui lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus ac odio a pretium.
+                            <br><br>
+                            Donec auctor nisl scelerisque egestas tincidunt. Curabitur vitae aliquet ligula, vel elementum lectus. Donec id libero nec erat scelerisque efficitur id sodales mi. Donec in consequat ex, a tempor justo. Nullam eleifend, ligula ac hendrerit blandit, massa sapien tempor dui, at volutpat odio nibh vel lacus. Mauris arcu lacus, faucibus sit amet lacinia ut, volutpat id lectus. Etiam eleifend augue sed dolor porttitor posuere eu non nunc. Curabitur condimentum lacus ligula, non sollicitudin elit viverra nec. Praesent lacinia commodo maximus. Aliquam tincidunt quis tortor id tincidunt. Donec commodo metus ac arcu ullamcorper condimentum. In vitae tristique augue.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="2">
+                        <p>
+                            Nam eros enim, pellentesque eget varius in, tincidunt nec arcu. Praesent leo orci, hendrerit sit amet vulputate id, aliquam at metus. Sed tincidunt arcu fringilla erat pretium, non varius elit finibus. Sed in nisi sit amet nisi ornare ullamcorper quis a lorem. Curabitur in urna elementum, egestas lacus sed, aliquam nibh. Curabitur porta convallis pellentesque. Morbi ac urna tellus. Phasellus lacinia tristique arcu, quis convallis massa iaculis sed. Sed blandit tincidunt odio, nec aliquam ligula gravida nec. Donec commodo augue at leo porttitor posuere. Vestibulum metus risus, maximus id nibh a, aliquam consectetur massa. Donec a auctor elit. Fusce et lacus non lectus cursus commodo. Pellentesque feugiat quis augue vitae suscipit.
+                            <br><br>
+                            Morbi malesuada posuere nulla, eu tristique eros feugiat vitae. Cras velit dui, posuere sit amet magna sed, varius elementum elit. Cras in vulputate urna. Mauris eleifend eros dui, ac porttitor leo porttitor sit amet. Proin massa velit, pharetra sed posuere non, faucibus eu orci. In euismod tempus lectus, ac placerat nunc porttitor non. Vivamus ultrices pulvinar lorem, non ullamcorper ligula rutrum sit amet. Nunc et dolor at nibh pellentesque malesuada non nec dolor. Etiam et auctor tellus, id sollicitudin quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam at elementum felis, a faucibus tellus. Vivamus condimentum est nec metus porttitor, ut hendrerit sapien vestibulum. Ut laoreet sodales dui.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                    <li class="item" data-id="3">
+                        <p>
+                            Integer porta diam vitae bibendum rhoncus. Nullam semper gravida luctus. Donec aliquam enim ligula, sit amet suscipit sapien fermentum quis. Suspendisse lobortis facilisis velit, eget malesuada elit efficitur vitae. In posuere, dolor finibus fermentum lobortis, mi orci dictum metus, vel ornare tortor lorem vel nisl. Sed consequat tincidunt scelerisque. Aenean nulla quam, hendrerit sed malesuada a, ullamcorper vitae nibh. Phasellus ac mattis metus. Nulla facilisi.
+                            <br><br>
+                            Suspendisse semper lobortis lectus in tincidunt. Praesent a pharetra mi. Nullam malesuada elementum magna quis pretium. Maecenas vel molestie orci. Sed dapibus efficitur sodales. Sed id massa a arcu eleifend fringilla. Duis egestas, libero vel finibus molestie, enim mauris feugiat urna, sit amet blandit orci nunc non diam. Proin tristique nulla vitae eros tempor, eget tincidunt mi convallis.
+                        </p>
+                        <a class="more" href="#">Learn More</a>
+                    </li>
+                </ul>
+            </div>
+
+            <script>
+                var navigationtabs = new NavigationTabs({
+                    element: "#bottom-position",
+                    event: "click",
+                    direction: "bottom",
+                    activeTab: 1
+                });
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
