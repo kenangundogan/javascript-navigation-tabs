@@ -1,6 +1,14 @@
 ## Javascript Navigation Tabs
 Javascript navigation tabs - tiny and simple.
 
+## Options
+Option | Type | Default | Description | Example
+------ | ---- | ------- | ----------- | -----------
+element | string or object |  | id or class DOM element | [Example](https://kenangundogan.github.io/javascript-navigation-tabs)
+event | string | click | add event listener | [Example](https://kenangundogan.github.io/javascript-navigation-tabs)
+direction | string | top | navigation position | [Example](https://kenangundogan.github.io/javascript-navigation-tabs)
+activeTab | int |  | active item to be open at startup | [Example](https://kenangundogan.github.io/javascript-navigation-tabs)
+
 ## Usage example
 ### Script
 ```javascript
@@ -11,7 +19,6 @@ var navigationtabs = new NavigationTabs({
     activeTab: 1
 });
 ```
-
 
 ### View
 ```html
