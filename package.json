@@ -1,7 +1,7 @@
 {
     "name": "javascript-navigation-tabs",
     "version": "1.0.0",
-    "description": "Javascript accordion - tiny and simple. Accordions are useful when you want to toggle between hiding and showing large amount of content.",
+    "description": "Javascript navigation tabs - tiny and simple.",
     "author": "Kenan Gündoğan",
     "main": "dist/example/javascript-navigation-tabs.html",
     "style": "dist/css/style.css",
