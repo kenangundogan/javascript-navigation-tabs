@@ -4,8 +4,8 @@
  * Released under the MIT License
  */
 
-var NavigationTabs = function (options) {
-    var element = options.element,
+const NavigationTabs = function (options) {
+    const element = options.element,
         event = options.event == null ? "click" : options.event,
         direction = options.direction == undefined ? "top" : options.direction,
         activeTab = options.activeTab,
@@ -20,8 +20,8 @@ var NavigationTabs = function (options) {
     navigationContainer.classList.add(direction);
 
     navigationMenuItems.forEach((menuItem) => {
-        menuItem.addEventListener(event, function () {
-            menuItemDataId = this.getAttribute("data-id");
+        menuItem.addEventListener(event, () => {
+            menuItemDataId = menuItem.getAttribute("data-id");
             navigationContentItems.forEach((contentItem) => {
                 contentItemDataId = contentItem.getAttribute("data-id");
                 if (menuItemDataId == contentItemDataId) {
@@ -56,3 +56,5 @@ var NavigationTabs = function (options) {
     }
     navigationActiveTabFunc(activeTab);
 }
+
+window.NavigationTabs = NavigationTabs;
