@@ -1,4 +1,4 @@
-## Javascript Navigation Tabs
+# Javascript Navigation Tabs
 Javascript navigation tabs - tiny and simple.
 
 ![Javascript Navigation Tabs](https://raw.githubusercontent.com/kenangundogan/javascript-navigation-tabs/main/asset/javascript_navigation_tabs-cover.png)
