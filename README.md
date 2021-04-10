@@ -3,9 +3,9 @@ Javascript navigation tabs - tiny and simple.
 
 ## Status
 [![JS gzip size](https://img.badgesize.io/kenangundogan/javascript-navigation-tabs/main/dist/script/script.js?compression=gzip&label=JS%20gzip%20size)](https://github.com/kenangundogan/javascript-navigation-tabs/blob/main/dist/script/script.js)
-[![JS Brotli size](https://img.badgesize.io/kenangundogan/javascript-navigation-tabs/main/dist/script/script.js?compression=brotli&label=JS%20Brotli%20size)](https://github.com/kenangundogan/javascript-navigation-tabs/blob/main/dist/style/style.css)
+[![JS Brotli size](https://img.badgesize.io/kenangundogan/javascript-navigation-tabs/main/dist/script/script.js?compression=brotli&label=JS%20Brotli%20size)](https://github.com/kenangundogan/javascript-navigation-tabs/blob/main/dist/script/script.js)
 [![CSS gzip size](https://img.badgesize.io/kenangundogan/javascript-navigation-tabs/main/dist/style/style.css?compression=gzip&label=CSS%20gzip%20size)](https://github.com/kenangundogan/javascript-navigation-tabs/blob/main/dist/style/style.css)
-[![CSS Brotli size](https://img.badgesize.io/kenangundogan/javascript-navigation-tabs/main/dist/script/script.js?compression=brotli&label=CSS%20Brotli%20size)](https://github.com/kenangundogan/javascript-navigation-tabs/blob/main/dist/style/style.css)
+[![CSS Brotli size](https://img.badgesize.io/kenangundogan/javascript-navigation-tabs/main/dist/style/style.css?compression=brotli&label=CSS%20Brotli%20size)](https://github.com/kenangundogan/javascript-navigation-tabs/blob/main/dist/style/style.css)
 
 ![Javascript Navigation Tabs](https://raw.githubusercontent.com/kenangundogan/javascript-navigation-tabs/main/asset/javascript_navigation_tabs-cover.png)
 
